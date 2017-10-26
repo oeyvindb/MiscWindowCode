@@ -1,0 +1,16 @@
+﻿  stdafx.cpp
+  UserlandRootkit.cpp
+  dllmain.cpp
+c:\users\lab\documents\visual studio 2017\projects\userlandrootkit\userlandrootkit\dllmain.cpp(11): error C2664: 'HMODULE LoadLibraryA(LPCSTR)': cannot convert argument 1 from 'const wchar_t [9]' to 'LPCSTR'
+  c:\users\lab\documents\visual studio 2017\projects\userlandrootkit\userlandrootkit\dllmain.cpp(11): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\lab\documents\visual studio 2017\projects\userlandrootkit\userlandrootkit\dllmain.cpp(15): error C2664: 'void OutputDebugStringA(LPCSTR)': cannot convert argument 1 from 'const wchar_t [50]' to 'LPCSTR'
+  c:\users\lab\documents\visual studio 2017\projects\userlandrootkit\userlandrootkit\dllmain.cpp(15): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\lab\documents\visual studio 2017\projects\userlandrootkit\userlandrootkit\dllmain.cpp(30): error C2664: 'void OutputDebugStringA(LPCSTR)': cannot convert argument 1 from 'const wchar_t [53]' to 'LPCSTR'
+  c:\users\lab\documents\visual studio 2017\projects\userlandrootkit\userlandrootkit\dllmain.cpp(30): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\lab\documents\visual studio 2017\projects\userlandrootkit\userlandrootkit\dllmain.cpp(43): error C2664: 'void OutputDebugStringA(LPCSTR)': cannot convert argument 1 from 'const wchar_t [12]' to 'LPCSTR'
+  c:\users\lab\documents\visual studio 2017\projects\userlandrootkit\userlandrootkit\dllmain.cpp(43): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\lab\documents\visual studio 2017\projects\userlandrootkit\userlandrootkit\dllmain.cpp(52): error C2664: 'BOOL CreateProcessW(LPCWSTR,LPWSTR,LPSECURITY_ATTRIBUTES,LPSECURITY_ATTRIBUTES,BOOL,DWORD,LPVOID,LPCWSTR,LPSTARTUPINFOW,LPPROCESS_INFORMATION)': cannot convert argument 9 from 'LPSTARTUPINFO' to 'LPSTARTUPINFOW'
+  c:\users\lab\documents\visual studio 2017\projects\userlandrootkit\userlandrootkit\dllmain.cpp(52): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\lab\documents\visual studio 2017\projects\userlandrootkit\userlandrootkit\dllmain.cpp(78): error C2664: 'void OutputDebugStringA(LPCSTR)': cannot convert argument 1 from 'const wchar_t [21]' to 'LPCSTR'
+  c:\users\lab\documents\visual studio 2017\projects\userlandrootkit\userlandrootkit\dllmain.cpp(78): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+  Generating Code...

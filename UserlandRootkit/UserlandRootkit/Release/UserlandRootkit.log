@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  UserlandRootkit.cpp
+  Generating code
+  Finished generating code
+  All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  UserlandRootkit.vcxproj -> C:\Users\lab\Documents\Visual Studio 2017\Projects\UserlandRootkit\Release\UserlandRootkit.dll
